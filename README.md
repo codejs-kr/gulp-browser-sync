@@ -5,6 +5,6 @@
 - LiveReload 모듈 보다 변경 사항이 빠르게 적용되며, 관리자 화면에서 보다 많은 기능을 제공합니다.
 
 ## 실행 (Comman Line Interface)
-- npm install
-- gulp
-- 자동으로 기본 화면에 브라우저에 열린다.
+1. npm install
+2. gulp
+3. 자동으로 브라우저에 기본 페이지가 열린다.
