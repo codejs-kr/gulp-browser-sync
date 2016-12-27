@@ -3,7 +3,7 @@
  *
  * @author dodortus (dodortus@gmail.com)
  * @fileOverview 클라이언트 정적파일 빌드 및 감지 메니저
- * @REF http://webclub.tistory.com/473
+ * @Git https://github.com/dodortus/gulp-browser-sync
  */
 
 // modules
@@ -67,10 +67,11 @@ gulp.task('combine-css', function() {
 // 브라우저 싱크 서버 초기화
 gulp.task('browserSync', ['html', 'combine-js', 'combine-css'], function() {
   return browserSync.init({
-    port : 3333,
+    port : 7001,
     server: {
       baseDir: './'
-    }
+    },
+    //proxy: "localhost:8080" // 다른 개발 서버에 프록시 연결 하여 브라우저 싱크 사용시 활성화 한다.
   });
 });
 

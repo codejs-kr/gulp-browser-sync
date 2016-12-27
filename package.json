@@ -2,7 +2,7 @@
   "name": "gulp-browser-sync",
   "author": "dodortus",
   "version": "1.0.0",
-  "description": "gulp start",
+  "description": "Client source build manager with BrowserSync",
   "license": "BSD",
   "dependencies": {
     "gulp": "~3.9.0",

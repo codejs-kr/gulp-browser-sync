@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="codeJS">
     <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.browsersync.io/favicon.ico?v=qAqkxQaJm0">
     <link href="./public/dist/css/all.css" type="text/css" rel="stylesheet" />
     <script src="/public/src/js/jquery.js"></script>
     <script src="/public/dist/js/all.js"></script>
@@ -19,28 +20,47 @@
       </header>
       <article>
         <p>
-          BrowserSync를 이용하면 로컬에서 프론트 작업시 웹서버를 실행하여 작업한 결과를 확인할 수 있다.<br><br>
-          BrowserSync는 Gulp 플로그인이 아닌 node.js 기반의 어플리케이션이지만 Gulp와 매끄럽게 연동해서 사용할 수 있습니다.
+          BrowserSync를 이용하면 로컬에서 웹 클라이언트 작업시 웹서버를 실행하여 작업한 결과를 쉽게 확인할 수 있는 기능을 제공합니다.<br><br>
+          BrowserSync는 node.js 기반의 어플리케이션이지만 Gulp와 매끄럽게 연동해서 사용할 수 있습니다.<br><br>
+          LiveReload 모듈 보다 변경사항이 빠르게 적용되며, 관리자 화면에서 보다 많은 기능을 제공합니다.
         </p>
 
-        <button>안녕하세요</button>
+        <h2>주요 기능</h2>
         <ol>
           <li>MiniServer</li>
+          <li>Sync</li>
           <li>Watch</li>
-          <li>BrowserSync</li>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
-          <li>item</li>
+          <li>
+            Admin (<a href="http://localhost:3001" target="_blank">http://localhost:3001</a>)
+            <ul>
+              <li>Sync Options <button>버튼 동작 테스트</button></li>
+              <li>History</li>
+              <li>Plugins</li>
+              <li>Remote Debug</li>
+              <li>Network Throttle</li>
+              <li>Help</li>
+            </ul>
+          </li>
         </ol>
+
+        <h2>개발중인 다른 서버에 브라우저싱크 연동</h2>
+        <p>
+          다른 개발 서버에 프록시 연결 하여 브라우저 싱크 사용할 수 있다.<br>
+          준비된 예제 소스의 "gulpfile.js" 보면 쉽게 알 수 있다.
+        </p>
+
+        <h2>실행 (Comman Line Interface)</h2>
+        <ol>
+          <li>npm install</li>
+          <li>gulp</li>
+          <li>자동으로 기본 화면에 브라우저에 열린다.</li>
+        </ol>
+
+        <h2>참고</h2>
+        <ul>
+          <li><a href="https://www.browsersync.io/docs/options" target="_blank">https://www.browsersync.io/docs/options</a></li>
+          <li><a href="https://www.browsersync.io/docs/options" target="_blank">Git 해당 예제</a></li>
+        </ul>
       </article>
     </div>
   </body>
