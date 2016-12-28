@@ -2,7 +2,7 @@
  * Client source build manager with BrowserSync
  *
  * @author dodortus (dodortus@gmail.com)
- * @fileOverview 클라이언트 정적파일 빌드 및 감지 메니저
+ * @fileOverview 클라이언트 정적파일 빌드 및 변경 감지 매니저
  * @Git https://github.com/dodortus/gulp-browser-sync
  */
 
