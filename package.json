@@ -1,7 +1,7 @@
 {
   "name": "gulp-browser-sync",
   "author": "dodortus",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Client source build manager with BrowserSync",
   "license": "BSD",
   "dependencies": {
@@ -13,6 +13,6 @@
   },
   "main": "gulpfile.js",
   "scripts": {
-    "start": "node gulpfile.js"
+    "start": "gulp"
   }
 }
