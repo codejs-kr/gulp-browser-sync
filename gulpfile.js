@@ -133,7 +133,8 @@ gulp.task('build-index', function () {
   const sources = gulp.src([buildDir + '/contents/js/*.js', buildDir + '/contents/css/*.css'], {read: false});
 
   return target.pipe(inject(sources, {
-        ignorePath: "/build/"
+        ignorePath: "/build/",
+        addRootSlash: false
       })
     ).pipe(gulp.dest(buildDir));
 });
