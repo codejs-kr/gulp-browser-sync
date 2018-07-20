@@ -15,14 +15,13 @@
     "gulp-inject": "^4.3.2",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.0"
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.2.1"
   },
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
-    "build": "gulp build"
-  },
-  "dependencies": {
-    "run-sequence": "^2.2.1"
+    "build": "gulp build",
+    "deploy": "git subtree push --prefix build origin gh-pages"
   }
 }
