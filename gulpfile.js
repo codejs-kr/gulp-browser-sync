@@ -30,8 +30,8 @@ const paths = {
   scss: {
     src: contentsDir + '/css/scss/*.scss',
     watch: contentsDir + '/css/scss/**/*.scss',
-    result: contentsDir + '/css/compiled',
-    buildTarget: contentsDir + '/css/compiled/*.css'
+    result: contentsDir + '/css',
+    buildTarget: contentsDir + '/css/*.css'
   },
   img: contentsDir + '/img/*',
   html: srcDir + '/*.html'
