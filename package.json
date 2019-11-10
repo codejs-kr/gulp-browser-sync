@@ -23,5 +23,8 @@
     "start": "gulp",
     "build": "gulp build",
     "deploy": "git subtree push --prefix build origin gh-pages"
+  },
+  "engines": {
+    "node": "^10.16.*"
   }
 }
